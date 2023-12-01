@@ -1,3 +1,4 @@
+/* Normalize styles */
 html {
   box-sizing: border-box;
 }
@@ -187,4 +188,141 @@ body {
 
 .gray-block-decorate-2 {
   background-image: url("../img/decorate-2.png");
+}
+
+/*Modules styles*/
+
+.modules-container {
+  margin: 0 auto;
+  width: 1170px;
+  min-height: 1477px;
+}
+
+.modules-logo {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.modules-arrow {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+}
+
+.modules-link {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #3F2AFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.modules-main-title {
+  margin: 0;
+  color: #3F2AFF;
+  font-family: Arial;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.modules-second-title {
+  margin: 0;
+  color: #3F2AFF;
+  font-family: Arial;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 25px;
+}
+
+.modules-text {
+  margin: 0;
+  color: #333;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%;
+  padding-left: 25px;
+}
+
+.modules-list {
+  font-size: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.modules-list_item {
+  position: relative;
+  width: 572px;
+  height: 505px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.modules-list_item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.modules-list_item-image {
+  width: 572px;
+  height: 180px;
+  margin-bottom: 25px;
+}
+
+.modules-list_item .image-1 {
+  background: url("../img/modules-1.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.modules-list_item .image-2 {
+  background: url("../img/modules-2.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.modules-list_item .image-3 {
+  background: url("../img/modules-3.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.modules-list_item .image-4 {
+  background: url("../img/modules-4.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.modules-show-more-button {
+  display: block;
+  margin: 0 auto;
+  width: 274px;
+  height: 70px;
+  border: 2px solid #3F2AFF;
+  color: #3F2AFF;
+  background-color: #FFF;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.modules-number {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  color: #EAEAEA;
+  text-align: right;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
