@@ -198,28 +198,35 @@ body {
   min-height: 1477px;
 }
 
-.modules-logo {
+.modules-skillbox-link {
   display: block;
   margin-top: 50px;
   margin-bottom: 25px;
 }
 
-.modules-arrow {
-  display: inline-block;
-  position: relative;
-  top: -3px;
-  margin-right: 5px;
+.modules-skillbox-logo {
+  width: 137px;
+  height: 30px;
+  background-image: url("../img/modules-skillbox-1.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .modules-link {
   display: inline-block;
+  height: 23px;
   margin-bottom: 25px;
+  padding-left: 52px;
   color: #3F2AFF;
   font-family: Arial;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  background-image: url("../img/modules-Arrow-1.svg");
+  background-position: left center;
+  background-size: 45px 23px;
+  background-repeat: no-repeat;
 }
 
 .modules-main-title {
@@ -270,33 +277,30 @@ body {
   vertical-align: top;
   margin-bottom: 25px;
   margin-right: 25px;
+  padding-top: 205px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.list_item-decorate-1 {
+  background-image: url('../img/modules-1.jpg');
+}
+
+.list_item-decorate-2 {
+  background-image: url('../img/modules-2.jpg');
+}
+
+.list_item-decorate-3 {
+  background-image: url('../img/modules-3.jpg');
+}
+
+.list_item-decorate-4 {
+  background-image: url('../img/modules-4.jpg');
 }
 
 .modules-list_item:nth-child(2n) {
   margin-right: 0;
-}
-
-.modules-list_item-image {
-  width: 572px;
-  height: 180px;
-  margin-bottom: 25px;
-}
-
-.modules-list_item .image-1 {
-  background: url("../img/modules-1.jpg"), lightgray 50% / cover no-repeat;
-}
-
-.modules-list_item .image-2 {
-  background: url("../img/modules-2.jpg"), lightgray 50% / cover no-repeat;
-}
-
-.modules-list_item .image-3 {
-  background: url("../img/modules-3.jpg"), lightgray 50% / cover no-repeat;
-}
-
-.modules-list_item .image-4 {
-  background: url("../img/modules-4.jpg"), lightgray 50% / cover no-repeat;
 }
 
 .modules-show-more-button {
