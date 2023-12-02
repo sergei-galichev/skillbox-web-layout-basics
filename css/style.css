@@ -195,30 +195,23 @@ body {
 .modules-container {
   margin: 0 auto;
   width: 1170px;
-  min-height: 1477px;
+  padding: 50px 0;
 }
 
 .modules-skillbox-link {
-  display: block;
-  margin-top: 50px;
+  display: inline-block;
   margin-bottom: 25px;
 }
 
-.modules-skillbox-logo {
-  width: 137px;
-  height: 30px;
-  background-image: url("../img/modules-skillbox-1.svg");
-  background-position: center center;
-  background-repeat: no-repeat;
+.modules-link-box {
+  width: 160px;
 }
 
 .modules-link {
   display: inline-block;
-  height: 23px;
   margin-bottom: 25px;
   padding-left: 52px;
   color: #3F2AFF;
-  font-family: Arial;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -232,7 +225,6 @@ body {
 .modules-main-title {
   margin: 0;
   color: #3F2AFF;
-  font-family: Arial;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
@@ -243,30 +235,30 @@ body {
 .modules-second-title {
   margin: 0;
   color: #3F2AFF;
-  font-family: Arial;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-left: 25px;
 }
 
 .modules-text {
   margin: 0;
   color: #333;
-  font-family: Arial;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 165%;
-  padding-left: 25px;
 }
 
 .modules-list {
   font-size: 0;
   padding: 0;
   list-style: none;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+.lessons {
+  margin-bottom: 0px;
 }
 
 .modules-list_item {
@@ -277,10 +269,14 @@ body {
   vertical-align: top;
   margin-bottom: 25px;
   margin-right: 25px;
-  padding-top: 205px;
+  padding: 205px 25px 25px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+.modules-list_item:nth-last-child(-n+2) {
+  margin-bottom: 0;
 }
 
 .list_item-decorate-1 {
@@ -303,19 +299,20 @@ body {
   margin-right: 0;
 }
 
-.modules-show-more-button {
-  display: block;
-  margin: 0 auto;
-  width: 274px;
-  height: 70px;
+.modules-btn-wrapper {
+  text-align: center;
+}
+
+.modules-show-more-btn {
+  padding: 25px 76px;
   border: 2px solid #3F2AFF;
   color: #3F2AFF;
   background-color: #FFF;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  cursor: pointer;
 }
 
 .modules-number {
@@ -324,7 +321,6 @@ body {
   right: 25px;
   color: #EAEAEA;
   text-align: right;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
