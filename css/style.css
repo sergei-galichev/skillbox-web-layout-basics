@@ -204,12 +204,11 @@ body {
 }
 
 .modules-link-box {
-  width: 160px;
+  margin-bottom: 25px;
 }
 
 .modules-link {
   display: inline-block;
-  margin-bottom: 25px;
   padding-left: 52px;
   color: #3F2AFF;
   font-size: 20px;
